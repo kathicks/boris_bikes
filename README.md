@@ -14,3 +14,5 @@ Main goal:
 Issues
 ------
 User Stories; Can you have 2 messages on the same line?
+
+From Feature Tests to Unit Tests; Why Ruby Error, not Rspec error? Perhaps because of the lack of apostrophes around DockingStation, maybe Ruby recognises it as a Ruby object rather than an Rspec test.

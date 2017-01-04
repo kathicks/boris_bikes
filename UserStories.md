@@ -22,3 +22,12 @@ I'd like to see if a bike is working
 |---------------|:-----------------:|
 |Person         |                   |
 |Bike           |use, see if working|
+
+Walkthrough Domain Model
+-------------
+
+|Objects        |Messages           |
+|---------------|:-----------------:|
+|Person         |                   |
+|Bike           |working?           |
+|DockingStation |release_bike       |

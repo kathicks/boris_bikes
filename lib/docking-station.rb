@@ -11,7 +11,7 @@ class DockingStation
   end
 
   def dock_bike(x)
-    fail "Docking station is full." unless bikes.empty?
+    fail "Docking station is full." unless bikes.length < 20
     if x.instance_of? Bike
       bikes.push(x)
     end

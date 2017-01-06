@@ -6,7 +6,8 @@ class DockingStation
   end
 
   def release_bike
-    Bike.new
+    raise "No bikes in the docking station." unless !bikes.empty?
+    bikes.pop
   end
 
   def dock_bike(x)

@@ -14,13 +14,13 @@ describe DockingStation do
 
     test_bike = Bike.new
     subject.dock_bike(test_bike)
-    expect(subject.release_bike.working?).to eq(true)
+    expect(subject.release_bike.working?).to eq true
   end
 
   it 'accepts a bike for docking and stores it' do
     test_bike = Bike.new
     expect(subject).to respond_to :dock_bike
-    expect(subject.dock_bike(test_bike)).to include(test_bike)
+    expect(subject.dock_bike(test_bike)).to include test_bike
   end
 
   it 'shows docked bikes' do
@@ -32,8 +32,17 @@ describe DockingStation do
   end
 
   it 'raises an error when docking a bike in a full docking station' do
-    DockingStation::DEFAULT_CAPACITY.times { subject.dock_bike(Bike.new) }
+    subject.capacity.times { subject.dock_bike(Bike.new) }
     expect { subject.dock_bike(Bike.new) }.to raise_error("Docking station is full.")
+  end
+
+  it 'has a default capacity of 20' do
+    expect(subject.capacity).to eq 20
+  end
+
+  it 'can have a customised capacity on initialization' do
+    station = DockingStation.new(10)
+    expect(station.capacity).to eq 10
   end
 
 end

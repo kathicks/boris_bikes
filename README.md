@@ -13,6 +13,9 @@ Main goal:
 
 Issues
 ------
-User Stories; Can you have 2 messages on the same line?
-
-From Feature Tests to Unit Tests; Why Ruby Error, not Rspec error? Perhaps because of the lack of apostrophes around DockingStation, maybe Ruby recognises it as a Ruby object rather than an Rspec test.
+- User story domain models: can you have two `messages` on the same line (i.e. for the same `object`)?
+- What is the difference between a feature test and a unit test?
+  - Feature testing is done in IRB - pretending you're a user
+  - Unit testing is done with RSpec - testing a specific bit of behaviour
+- What is the difference between a Ruby error, not Rspec failure?
+  - Ruby error means that there is a syntax issue with your code, whereas a Rspec failure means that code is technically correct but not behaving as you'd expect

@@ -1,7 +1,7 @@
 # Boris Bikes
 ### Makers Academy Week 1
 
-[![Build Status](https://travis-ci.org/KatHicks/boris_bikes.svg?branch=master)](https://travis-ci.org/KatHicks/boris_bikes) [![Coverage Status](https://coveralls.io/repos/github/KatHicks/boris_bikes/badge.svg?branch=master)](https://coveralls.io/github/KatHicks/boris_bikes?branch=master)
+[![Build Status](https://travis-ci.org/KatHicks/boris_bikes.svg?branch=master)](https://travis-ci.org/KatHicks/boris_bikes) [![Coverage Status](https://coveralls.io/repos/github/KatHicks/boris_bikes/badge.svg?branch=master)](https://coveralls.io/github/KatHicks/boris_bikes?branch=master) [![Code Climate](https://codeclimate.com/github/KatHicks/boris_bikes/badges/gpa.svg)](https://codeclimate.com/github/KatHicks/boris_bikes)
 
 Transport for London come to you with a plan: a network of docking stations and bikes that anyone can use. They want you to build a program that will emulate all the docking stations, bikes, and infrastructure (repair staff, and so on) required to make their dream a reality.
 

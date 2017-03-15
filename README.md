@@ -61,3 +61,5 @@ We worked through the challenges throughout the week in rotating pairs to comple
 ### Ideas for extension
 
 ### Collaborators
+
+Samir Gossain, Konrad Schlatte, Frankie Shaw

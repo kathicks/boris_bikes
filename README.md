@@ -1,5 +1,5 @@
 # Boris Bikes
-### Makers Academy Week 1
+### Makers Academy Week No. 1
 
 [![Build Status](https://travis-ci.org/KatHicks/boris_bikes.svg?branch=master)](https://travis-ci.org/KatHicks/boris_bikes) [![Coverage Status](https://coveralls.io/repos/github/KatHicks/boris_bikes/badge.svg?branch=master)](https://coveralls.io/github/KatHicks/boris_bikes?branch=master) [![Code Climate](https://codeclimate.com/github/KatHicks/boris_bikes/badges/gpa.svg)](https://codeclimate.com/github/KatHicks/boris_bikes)
 

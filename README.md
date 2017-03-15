@@ -51,14 +51,15 @@ We worked through the challenges throughout the week in rotating pairs to comple
 
 ### Reflections
 
-- User story domain models: can you have two `messages` on the same line (i.e. for the same `object`)?
-- What is the difference between a feature test and a unit test?
-  - Feature testing is pretending you're a user
-  - Unit testing is done with RSpec - testing a specific bit of behaviour
-- What is the difference between a Ruby error, not Rspec failure?
-  - Ruby error means that there is a syntax issue with your code, whereas a Rspec failure means that code is technically correct but not behaving as you'd expect
+* We struggled a bit with understanding how best to map out the domain model
+  * One of the questions was whether you could have two `messages` on the same line (i.e. for the same `object`)
+* Another conceptual hurdle was the distinction between feature testing and unit testing
+  * We came to realise that feature testing is interacting with the programme from the point of view of the user and unit testing is testing a specific bit of behaviour within the programme
 
 ### Ideas for extension
+
+* It would be nice to fully extend the concept of bikes working or not working
+  * Currently it is only half implemented
 
 ### Collaborators
 

@@ -5,7 +5,7 @@
 
 ### Instructions
 
-We worked through the challenges throughout the week in rotating pairs to complete this challenge. Below is the introduction that sets out the overarching goal:
+We worked through the challenges throughout the week in rotating pairs. Below is the introduction that sets out the overarching goal:
 
 > Let's go back several years, to the days when there were no Boris Bikes. Imagine that you're a junior developer (that was easy). Transport for London, the body responsible for delivery of a new bike system, come to you with a plan: a network of docking stations and bikes that anyone can use. They want you to build a program that will emulate all the docking stations, bikes, and infrastructure (repair staff, and so on) required to make their dream a reality.
 
@@ -18,7 +18,7 @@ We worked through the challenges throughout the week in rotating pairs to comple
 ### Using my application
 
 * Download the source code using `$ git clone`
-* Within the command line type the following commands to interact with the programme:
+* Within the command line, type the following commands to interact with the programme:
 
 ```
 2.3.3 :001 > require './lib/bike.rb'

@@ -18,7 +18,8 @@ We worked through the challenges throughout the week in rotating pairs. Below is
 ### Using my application
 
 * Download the source code using `$ git clone`
-* Within the command line, type the following commands to interact with the programme:
+* Within the command line, type the command `$ irb` to enter the Ruby REPL
+* Then, use the following commands to interact with the programme:
 
 ```
 2.3.3 :001 > require './lib/bike.rb'
@@ -37,7 +38,7 @@ We worked through the challenges throughout the week in rotating pairs. Below is
 
 ### Running the tests
 
-* Within the root of the directory, run `$ rspec` to run the tests and see the formatted documentation in the command line
+* Within the root of the directory, run `$ rspec` to run the tests and see the results in the command line
 
 ### Dependencies
 
@@ -46,7 +47,7 @@ We worked through the challenges throughout the week in rotating pairs. Below is
 
 ### Approach
 
-* Tried to use a object-oriented approach with each object in a separate file and class
+* Tried to use a object-oriented approach with each object in a separate file
 * Uses dependency injection to store instances of Bike in an instance of DockingStation
 
 ### Reflections
